@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7A558252610508000E239A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A558242610508000E239A5 /* AppDelegate.swift */; };
+		C7A558272610508000E239A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A558262610508000E239A5 /* SceneDelegate.swift */; };
+		C7A558292610508000E239A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A558282610508000E239A5 /* ViewController.swift */; };
+		C7A5582C2610508000E239A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A5582A2610508000E239A5 /* Main.storyboard */; };
+		C7A5582E2610508200E239A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A5582D2610508200E239A5 /* Assets.xcassets */; };
+		C7A558312610508200E239A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A5582F2610508200E239A5 /* LaunchScreen.storyboard */; };
+		C7A5583C2610508200E239A5 /* OthelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A5583B2610508200E239A5 /* OthelloTests.swift */; };
+		C7A558472610508200E239A5 /* OthelloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A558462610508200E239A5 /* OthelloUITests.swift */; };
+		C7A558572610635B00E239A5 /* TapGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A558562610635B00E239A5 /* TapGridView.swift */; };
+		C7AEDF722620227500E9C675 /* OthelloGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AEDF712620227500E9C675 /* OthelloGame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7A558382610508200E239A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7A558192610508000E239A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7A558202610508000E239A5;
+			remoteInfo = Othello;
+		};
+		C7A558432610508200E239A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7A558192610508000E239A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7A558202610508000E239A5;
+			remoteInfo = Othello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7A558212610508000E239A5 /* Othello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Othello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A558242610508000E239A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7A558262610508000E239A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7A558282610508000E239A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7A5582B2610508000E239A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7A5582D2610508200E239A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7A558302610508200E239A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7A558322610508200E239A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A558372610508200E239A5 /* OthelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OthelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A5583B2610508200E239A5 /* OthelloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthelloTests.swift; sourceTree = "<group>"; };
+		C7A5583D2610508200E239A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A558422610508200E239A5 /* OthelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OthelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A558462610508200E239A5 /* OthelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthelloUITests.swift; sourceTree = "<group>"; };
+		C7A558482610508200E239A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A558562610635B00E239A5 /* TapGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGridView.swift; sourceTree = "<group>"; };
+		C7AEDF712620227500E9C675 /* OthelloGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthelloGame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7A5581E2610508000E239A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A558342610508200E239A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A5583F2610508200E239A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7A558182610508000E239A5 = {
+			isa = PBXGroup;
+			children = (
+				C7A558232610508000E239A5 /* Othello */,
+				C7A5583A2610508200E239A5 /* OthelloTests */,
+				C7A558452610508200E239A5 /* OthelloUITests */,
+				C7A558222610508000E239A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7A558222610508000E239A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7A558212610508000E239A5 /* Othello.app */,
+				C7A558372610508200E239A5 /* OthelloTests.xctest */,
+				C7A558422610508200E239A5 /* OthelloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7A558232610508000E239A5 /* Othello */ = {
+			isa = PBXGroup;
+			children = (
+				C7A558562610635B00E239A5 /* TapGridView.swift */,
+				C7A558242610508000E239A5 /* AppDelegate.swift */,
+				C7A558262610508000E239A5 /* SceneDelegate.swift */,
+				C7A558282610508000E239A5 /* ViewController.swift */,
+				C7A5582A2610508000E239A5 /* Main.storyboard */,
+				C7A5582D2610508200E239A5 /* Assets.xcassets */,
+				C7A5582F2610508200E239A5 /* LaunchScreen.storyboard */,
+				C7A558322610508200E239A5 /* Info.plist */,
+				C7AEDF712620227500E9C675 /* OthelloGame.swift */,
+			);
+			path = Othello;
+			sourceTree = "<group>";
+		};
+		C7A5583A2610508200E239A5 /* OthelloTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7A5583B2610508200E239A5 /* OthelloTests.swift */,
+				C7A5583D2610508200E239A5 /* Info.plist */,
+			);
+			path = OthelloTests;
+			sourceTree = "<group>";
+		};
+		C7A558452610508200E239A5 /* OthelloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7A558462610508200E239A5 /* OthelloUITests.swift */,
+				C7A558482610508200E239A5 /* Info.plist */,
+			);
+			path = OthelloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7A558202610508000E239A5 /* Othello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A5584B2610508200E239A5 /* Build configuration list for PBXNativeTarget "Othello" */;
+			buildPhases = (
+				C7A5581D2610508000E239A5 /* Sources */,
+				C7A5581E2610508000E239A5 /* Frameworks */,
+				C7A5581F2610508000E239A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Othello;
+			productName = Othello;
+			productReference = C7A558212610508000E239A5 /* Othello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7A558362610508200E239A5 /* OthelloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A5584E2610508200E239A5 /* Build configuration list for PBXNativeTarget "OthelloTests" */;
+			buildPhases = (
+				C7A558332610508200E239A5 /* Sources */,
+				C7A558342610508200E239A5 /* Frameworks */,
+				C7A558352610508200E239A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7A558392610508200E239A5 /* PBXTargetDependency */,
+			);
+			name = OthelloTests;
+			productName = OthelloTests;
+			productReference = C7A558372610508200E239A5 /* OthelloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7A558412610508200E239A5 /* OthelloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A558512610508200E239A5 /* Build configuration list for PBXNativeTarget "OthelloUITests" */;
+			buildPhases = (
+				C7A5583E2610508200E239A5 /* Sources */,
+				C7A5583F2610508200E239A5 /* Frameworks */,
+				C7A558402610508200E239A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7A558442610508200E239A5 /* PBXTargetDependency */,
+			);
+			name = OthelloUITests;
+			productName = OthelloUITests;
+			productReference = C7A558422610508200E239A5 /* OthelloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7A558192610508000E239A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Cascade Labs";
+				TargetAttributes = {
+					C7A558202610508000E239A5 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					C7A558362610508200E239A5 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = C7A558202610508000E239A5;
+					};
+					C7A558412610508200E239A5 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = C7A558202610508000E239A5;
+					};
+				};
+			};
+			buildConfigurationList = C7A5581C2610508000E239A5 /* Build configuration list for PBXProject "Othello" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7A558182610508000E239A5;
+			productRefGroup = C7A558222610508000E239A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7A558202610508000E239A5 /* Othello */,
+				C7A558362610508200E239A5 /* OthelloTests */,
+				C7A558412610508200E239A5 /* OthelloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7A5581F2610508000E239A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A558312610508200E239A5 /* LaunchScreen.storyboard in Resources */,
+				C7A5582E2610508200E239A5 /* Assets.xcassets in Resources */,
+				C7A5582C2610508000E239A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A558352610508200E239A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A558402610508200E239A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7A5581D2610508000E239A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A558292610508000E239A5 /* ViewController.swift in Sources */,
+				C7AEDF722620227500E9C675 /* OthelloGame.swift in Sources */,
+				C7A558252610508000E239A5 /* AppDelegate.swift in Sources */,
+				C7A558572610635B00E239A5 /* TapGridView.swift in Sources */,
+				C7A558272610508000E239A5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A558332610508200E239A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A5583C2610508200E239A5 /* OthelloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A5583E2610508200E239A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A558472610508200E239A5 /* OthelloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7A558392610508200E239A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7A558202610508000E239A5 /* Othello */;
+			targetProxy = C7A558382610508200E239A5 /* PBXContainerItemProxy */;
+		};
+		C7A558442610508200E239A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7A558202610508000E239A5 /* Othello */;
+			targetProxy = C7A558432610508200E239A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7A5582A2610508000E239A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7A5582B2610508000E239A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7A5582F2610508200E239A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7A558302610508200E239A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7A558492610508200E239A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7A5584A2610508200E239A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7A5584C2610508200E239A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Othello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CascadeLabs.Othello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7A5584D2610508200E239A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Othello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CascadeLabs.Othello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7A5584F2610508200E239A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OthelloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CascadeLabs.OthelloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Othello.app/Othello";
+			};
+			name = Debug;
+		};
+		C7A558502610508200E239A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OthelloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CascadeLabs.OthelloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Othello.app/Othello";
+			};
+			name = Release;
+		};
+		C7A558522610508200E239A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OthelloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CascadeLabs.OthelloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Othello;
+			};
+			name = Debug;
+		};
+		C7A558532610508200E239A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OthelloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CascadeLabs.OthelloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Othello;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7A5581C2610508000E239A5 /* Build configuration list for PBXProject "Othello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A558492610508200E239A5 /* Debug */,
+				C7A5584A2610508200E239A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A5584B2610508200E239A5 /* Build configuration list for PBXNativeTarget "Othello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A5584C2610508200E239A5 /* Debug */,
+				C7A5584D2610508200E239A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A5584E2610508200E239A5 /* Build configuration list for PBXNativeTarget "OthelloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A5584F2610508200E239A5 /* Debug */,
+				C7A558502610508200E239A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A558512610508200E239A5 /* Build configuration list for PBXNativeTarget "OthelloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A558522610508200E239A5 /* Debug */,
+				C7A558532610508200E239A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7A558192610508000E239A5 /* Project object */;
+}
